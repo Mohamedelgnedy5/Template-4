@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- File Of Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- File Of style -->
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap"
+      rel="stylesheet" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <nav>
+      <h3>Elzero</h3>
+      <div>
+        <ul>
+          <li>
+            <a style="background-color: #f6f6f6; border-radius: 4px" href="index.html"
+              ><i class="fa-regular fa-chart-bar fa-fw"></i
+              ><span>Dashboard</span></a
+            >
+          </li>
+          <li>
+            <a href="setting.html"
+              ><i class="fa-solid fa-gear fa-fw"></i><span>Setting</span></a
+            >
+          </li>
+          <li>
+            <a href="profile.html"
+              ><i class="fa-regular fa-user fa-fw"></i><span>Profile</span></a
+            >
+          </li>
+          <li>
+            <a href="projects.html"
+              ><i class="fa-solid fa-diagram-project fa-fw"></i
+              ><span>Projects</span></a
+            >
+          </li>
+          <li>
+            <a href="courses.html"
+              ><i class="fa-solid fa-graduation-cap fa-fw"></i
+              ><span>Courses</span></a
+            >
+          </li>
+          <li>
+            <a href="friends.html"
+              ><i class="fa-regular fa-circle-user fa-fw"></i
+              ><span>Friends</span></a
+            >
+          </li>
+          <li>
+            <a href="files.html"
+              ><i class="fa-regular fa-file fa-fw"></i><span>Files</span></a
+            >
+          </li>
+          <li>
+            <a style="text-decoration: none" href="plans.html"
+              ><i class="fa-regular fa-credit-card fa-fw"></i
+              ><span>Plans</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Start Full content screen -->
+    <div class="full-content">
+      <div class="head">
+        <div class="serch">
+          <input
+            type="search"
+            name="serch"
+            id="serch"
+            placeholder="Type A Keyword" />
+        </div>
+        <div class="icons">
+          <i style="font-size: 1.25em" class="fa-regular fa-bell fa-lg"></i>
+          <img
+            src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/avatar.png"
+            alt="No-icon" />
+        </div>
+      </div>
+      <h1>Dashboard</h1>
+      <div class="grid-items">
+        <!-- Start Welcome -->
+        <div style="border-radius: 10px; position: relative" class="welcome">
+          <div class="intro">
+            <div class="text">
+              <h2>Welcome</h2>
+              <p>Elgnedy</p>
+            </div>
+            <img
+              src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/welcome.png"
+              alt="No-WelcomeImg" />
+          </div>
+          <div class="image">
+            <img
+              src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/avatar.png"
+              alt="No-Logo" />
+          </div> 
+          <div class="body">
+            <div>
+              Mohammed Elgnedy
+              <span>Developer</span>
+            </div>
+            <div>
+              80
+              <span>Projects</span>
+            </div>
+            <div>
+              $8500
+              <span>Earned</span>
+            </div>
+          </div>
+          <a href="">Profile</a>
+        </div>
+        <!-- End Welcome -->
+        <!-- Start Quick Draft -->
+        <div class="quick-draft">
+          <h2>Quick Draft</h2>
+          <p>Write A Draft For Your Ideas</p>
+          <form action="">
+            <input type="text" placeholder="Title" />
+            <textarea
+              style="min-height: 140px"
+              name="textarea"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your Thought"></textarea>
+            <input type="button" value="Save" />
+          </form>
+        </div>
+        <!-- End Quick Draft -->
+        <!-- Start Yearly Target -->
+        <div class="yearly-target">
+          <h2>Yearly Targets</h2>
+          <p>Targets Of The Year</p>
+          <div>
+            <div style="background-color: rgb(0 117 255 / 20%)" class="icon">
+              <i
+                style="color: #0075ff; font-size: 1.25em"
+                class="fa-solid fa-dollar-sign fa-lg c-blue"></i>
+            </div>
+            <div class="detalis">
+              <span>Money</span>
+              <span>$20.000</span>
+              <span
+                class="span1"
+                precent="80%"
+                style="
+                  background: linear-gradient(
+                    to right,
+                    #0075ff 80%,
+                    rgb(0 117 255 / 20%) 80%
+                  );
+                "></span>
+            </div>
+          </div>
+          <div>
+            <div style="background-color: rgb(245 158 11 / 20%)" class="icon">
+              <i
+                style="font-size: 1.25em; color: #f59e0b"
+                class="fa-solid fa-code fa-lg c-orange"></i>
+            </div>
+            <div class="detalis">
+              <span>Projects</span>
+              <span>24</span>
+              <span
+                class="span2"
+                precent="55%"
+                style="
+                  background: linear-gradient(
+                    to right,
+                    #f59e0b 55%,
+                    rgb(245 158 11 / 20%) 55%
+                  );
+                "></span>
+            </div>
+          </div>
+          <div>
+            <div style="background-color: rgb(34 197 94 / 20%)" class="icon">
+              <i
+                style="color: #22c55e; font-size: 1.25em"
+                class="fa-solid fa-user fa-lg c-green"></i>
+            </div>
+            <div class="detalis">
+              <span>Team</span>
+              <span>12</span>
+              <span
+                class="span3"
+                precent="75%"
+                style="
+                  background: linear-gradient(
+                    to right,
+                    #22c55e 75%,
+                    rgb(34 197 94 / 20%) 75%
+                  );
+                "></span>
+            </div>
+          </div>
+        </div>
+        <!-- End Yearly Target -->
+        <!-- Start Tickets Statistics -->
+        <div class="tickets">
+          <h2>Tickets Statistics</h2>
+          <p>Everything About Support Tickets</p>
+          <div class="grid-itmes">
+            <div class="box">
+              <i
+                style="color: #f59e0b"
+                class="fa-regular fa-rectangle-list fa-2x mb-10 c-orange"></i>
+              <span>2500</span>
+              Total
+            </div>
+            <div class="box">
+              <i
+                style="color: #0075ff"
+                class="fa-solid fa-spinner fa-2x mb-10 c-blue"></i>
+              <span>500</span>
+              Pending
+            </div>
+            <div class="box">
+              <i
+                style="color: #22c55e"
+                class="fa-regular fa-circle-check fa-2x mb-10 c-green"></i>
+              <span>1900</span>
+              Closed
+            </div>
+            <div class="box">
+              <i
+                style="color: #f44336"
+                class="fa-regular fa-rectangle-xmark fa-2x mb-10 c-red"></i>
+              <span>100</span>
+              Deleted
+            </div>
+          </div>
+        </div>
+        <!-- End Tickets Statistics -->
+        <!-- Start News -->
+        <div class="news">
+          <!-- End News -->
+          <h2>Latest News</h2>
+          <div class="box">
+            <img
+              src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/news-01.png"
+              alt="No-img" />
+            <div class="info">
+              <h3>Created SASS Section</h3>
+              <p>New SASS Examples & Tutorials</p>
+            </div>
+            <span>3 Days Ago</span>
+          </div>
+          <div class="box">
+            <img
+              src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/news-02.png"
+              alt="No-img" />
+            <div class="info">
+              <h3>Changed The Design</h3>
+              <p>A Brand New Website Design</p>
+            </div>
+            <span>3 Days Ago</span>
+          </div>
+          <div class="box">
+            <img
+              src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/news-03.png"
+              alt="No-img" />
+            <div class="info">
+              <h3>Team Increased</h3>
+              <p>3 Developers Joined The Team</p>
+            </div>
+            <span>7 Days Ago</span>
+          </div>
+          <div class="box">
+            <img
+              src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/news-04.png"
+              alt="No-img" />
+            <div class="info">
+              <h3>Added Payment Gateway</h3>
+              <p>Many New Payment Gateways Added</p>
+            </div>
+            <span>9 Days Ago</span>
+          </div>
+        </div>
+        <!-- Start Tasks -->
+        <div class="tasks">
+          <!-- End Tasks -->
+          <h2>Latest Tasks</h2>
+          <div class="box">
+            <div class="info">
+              <h3>Record One New Video</h3>
+              <p>Record Python Create Exe Project</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+          <div class="box">
+            <div class="info">
+              <h3>Write Article</h3>
+              <p>Write Low Level vs High Level Languages</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+          <div class="box">
+            <div class="info">
+              <h3>Finish Project</h3>
+              <p>Publish Academy Programming Project</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+          <div class="box">
+            <div class="info">
+              <h3 style="opacity: 0.5"><del>Attend The Meeting </del></h3>
+              <p style="opacity: 0.5">
+                <del>Attend The Project Business Analysis Meeting </del>
+              </p>
+            </div>
+            <i style="opacity: 0.5" class="fa-regular fa-trash-can delete"></i>
+          </div>
+          <div style="border: none; padding: 0; margin: 0" class="box">
+            <div class="info">
+              <h3>Finish Lesson</h3>
+              <p>Finish Teaching Flex Box</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+        </div>
+        <!-- Start Items -->
+        <div class="items">
+          <!-- End Items -->
+          <h2>Top Search Items</h2>
+          <div class="box">
+            <span style="color: #888">Keyword</span>
+            <span class="first-span" style="color: #888">Search Count</span>
+          </div>
+          <div class="box">
+            <span>Programming</span>
+            <span>220</span>
+          </div>
+          <div class="box">
+            <span>JavaScript</span>
+            <span>180</span>
+          </div>
+          <div class="box">
+            <span>PHP</span>
+            <span>160</span>
+          </div>
+          <div class="box">
+            <span>Code</span>
+            <span>145</span>
+          </div>
+          <div class="box">
+            <span>Design</span>
+            <span>110</span>
+          </div>
+          <div class="box">
+            <span>Logic</span>
+            <span>95</span>
+          </div>
+        </div>
+        <!-- Start Uploads -->
+        <div class="uploads">
+          <!-- End Uploads -->
+          <h2>Latest Uploads</h2>
+          <div class="box">
+            <div>
+              <img
+                src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/pdf.svg"
+                alt="NO-PDF" />
+              <div class="info">
+                <span>my-file.pdf</span>
+                <span>Elgnedy</span>
+              </div>
+            </div>
+            <span>8.9mb</span>
+          </div>
+          <div class="box">
+            <div>
+              <img
+                src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/avi.svg"
+                alt="NO-PDF" />
+              <div class="info">
+                <span>My-Video-File.avi</span>
+                <span>Admin</span>
+              </div>
+            </div>
+            <span>8.9mb</span>
+          </div>
+          <div class="box">
+            <div>
+              <img
+                src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/psd.svg"
+                alt="NO-PDF" />
+              <div class="info">
+                <span>My-Psd-File.pdf</span>
+                <span>Osama</span>
+              </div>
+            </div>
+            <span>8.9mb</span>
+          </div>
+          <div class="box">
+            <div>
+              <img
+                src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/zip.svg"
+                alt="NO-PDF" />
+              <div class="info">
+                <span>My-Zip-File.pdf</span>
+                <span>User</span>
+              </div>
+            </div>
+            <span>8.9mb</span>
+          </div>
+          <div class="box">
+            <div>
+              <img
+                src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/dll.svg"
+                alt="NO-PDF" />
+              <div class="info">
+                <span>My-DLL-File.pdf</span>
+                <span>Admin</span>
+              </div>
+            </div>
+            <span>4.9mb</span>
+          </div>
+          <div class="box" style="border: none; padding: 0; margin: 0">
+            <div>
+              <img
+                src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/eps.svg"
+                alt="NO-PDF" />
+              <div class="info">
+                <span>My-Eps-File.pdf</span>
+                <span>Designer</span>
+              </div>
+            </div>
+            <span>8.9mb</span>
+          </div>
+        </div>
+        <!-- Start Progress -->
+        <!-- End Progress -->
+        <div class="progress">
+          <h2>Last Project Progress</h2>
+          <ul style="padding: 0">
+            <li>Got The Project</li>
+            <li>Started The Project</li>
+            <li>The Project About To Finish</li>
+            <li>Test The Project</li>
+            <li class="not">Finish The Project & Get Money</li>
+          </ul>
+          <img
+            src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/project.png"
+            alt="No-Cover" />
+        </div>
+        <!-- Start Reminders -->
+        <div class="reminders">
+          <h2>Reminders</h2>
+          <div class="box">
+            <span style="background-color: #0075ff"></span>
+            <div style="border-color: #0075ff" class="info">
+              <p>Check My Tasks List</p>
+              <span>28/09/2022 - 12:00am </span>
+            </div>
+          </div>
+          <div class="box">
+            <span style="background-color: #22c55e"></span>
+            <div style="border-color: #22c55e" class="info">
+              <p>Check My Projects</p>
+              <span>28/09/2022 - 12:00am </span>
+            </div>
+          </div>
+          <div class="box">
+            <span style="background-color: #f59e0b"></span>
+            <div style="border-color: #f59e0b" class="info">
+              <p>Check My Projects</p>
+              <span>28/09/2022 - 12:00am </span>
+            </div>
+          </div>
+          <div class="box">
+            <span style="background-color: #f44336"></span>
+            <div style="border-color: #f44336" class="info">
+              <p>Finish The Development Workshop</p>
+              <span>28/09/2022 - 12:00am </span>
+            </div>
+          </div>
+        </div>
+        <!-- End Reminders -->
+        <!-- Start Post -->
+        <div class="post">
+          <h2>Latest Post</h2>
+          <div class="top-box">
+            <img
+              src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/avatar.png"
+              alt="No-Icon" />
+            <div class="info">
+              <span style="margin-bottom: 5px; font-weight: bold"
+                >Osama Elzero</span
+              >
+              <span style="color: #888">About 3 Hours Ago</span>
+            </div>
+          </div>
+          <div class="text">
+            You Can Fool All Of The People Some Of The Time, And Some Of The
+            People All Of The Time, But You Can't Fool All Of The People All Of
+            The Time.
+          </div>
+          <div class="last-box">
+            <div>
+              <i class="fa-regular fa-heart"></i>
+              <span>1.8K</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-comments"></i>
+              <span>500</span>
+            </div>
+          </div>
+        </div>
+        <!-- End Post -->
+        <!-- Start Stats -->
+        <div class="stats">
+          <h2>Social Media Stats</h2>
+          <div class="box">
+            <i
+              style="color: white; background-color: #1da1f2; padding: 15px"
+              class="fa-brands fa-twitter fa-2x c-white h-full center-flex"></i>
+            <div class="info">
+              <span style="color: #1da1f2">90K Followers</span>
+              <a href="https://twitter.com/?lang=ar">Follow</a>
+            </div>
+          </div>
+          <div class="box">
+            <i
+              class="fa-brands fa-facebook-f fa-2x c-white h-full center-flex"
+              style="
+                color: white;
+                background-color: #1877f2;
+                padding: 15px;
+              "></i>
+            <div class="info">
+              <span style="color: #1da1f2">2M Followers</span>
+              <a
+                style="background-color: #1877f2"
+                href="https://www.facebook.com/Mad.ninjaa"
+                >Like</a
+              >
+            </div>
+          </div>
+          <div style="background-color: rgb(255 0 0 / 20%)" class="box">
+            <i
+              style="color: white; background-color: #ff0000; padding: 15px"
+              class="fa-brands fa-youtube fa-2x c-white h-full center-flex"></i>
+            <div class="info">
+              <span style="color: #ff0000">1M Followers</span>
+              <a
+                style="background-color: #ff0000"
+                href="https://www.facebook.com/Mad.ninjaa"
+                >Subscribe</a
+              >
+            </div>
+          </div>
+          <div class="box">
+            <i
+              style="color: white; background-color: #0077b5; padding: 15px"
+              class="fa-brands fa-linkedin fa-2x c-white h-full center-flex"></i>
+            <div class="info">
+              <span style="color: #1da1f2">70K Followers</span>
+              <a
+                style="background-color: #0077b5"
+                href="https://www.facebook.com/Mad.ninjaa"
+                >Follow</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Stats -->
+      <!-- Start of Table -->
+      <div class="table">
+        <!-- End of Table -->
+        <h2>Projects</h2>
+        <table>
+          <thead>
+            <tr>
+              <td>Name</td>
+              <td>Finish Date</td>
+              <td>Client</td>
+              <td>Price</td>
+              <td>Team</td>
+              <td>Status</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ministry Wikipedia</td>
+              <td>10 May 2022</td>
+              <td>Ministry</td>
+              <td>$5300</td>
+              <td class="images">
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-01.png"
+                  alt="No-icon" />
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-02.png"
+                  alt="No-icon" />
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-03.png"
+                  alt="No-icon" />
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-04.png"
+                  alt="No-icon" />
+              </td>
+              <td><span style="background-color: #f59e0b">Pending</span></td>
+            </tr>
+            <tr>
+              <td>Elzero Shop</td>
+              <td>12 Oct 2021</td>
+              <td>Elzero Company</td>
+              <td>$1500</td>
+              <td class="images">
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-02.png"
+                  alt="No-icon" />
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-03.png"
+                  alt="No-icon" />
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-04.png"
+                  alt="No-icon" />
+              </td>
+              <td>
+                <span style="background-color: #0075ff">In Progress</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Bouba App</td>
+              <td>05 Sep 2021</td>
+              <td>Bouba</td>
+              <td>$800</td>
+              <td class="images">
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-01.png"
+                  alt="No-icon" />
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-02.png"
+                  alt="No-icon" />
+              </td>
+              <td><span>Completed</span></td>
+            </tr>
+            <tr>
+              <td>Mahmoud Website</td>
+              <td>22 May 2021</td>
+              <td>Mahmoud</td>
+              <td>$600</td>
+              <td class="images">
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-02.png"
+                  alt="No-icon" />
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-03.png"
+                  alt="No-icon" />
+              </td>
+              <td><span>Completed</span></td>
+            </tr>
+            <tr>
+              <td>Sayed Website</td>
+              <td>24 May 2021</td>
+              <td>Sayed</td>
+              <td>$300</td>
+              <td class="images">
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-02.png"
+                  alt="No-icon" />
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-03.png"
+                  alt="No-icon" />
+              </td>
+              <td><span style="background-color: #f44336">Rejected</span></td>
+            </tr>
+            <tr>
+              <td>Arena Application</td>
+              <td>01 Mar 2021</td>
+              <td>Arena Company</td>
+              <td>$2600</td>
+              <td class="images">
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-01.png"
+                  alt="No-icon" />
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-02.png"
+                  alt="No-icon" />
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-03.png"
+                  alt="No-icon" />
+                <img
+                  src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/team-04.png"
+                  alt="No-icon" />
+              </td>
+              <td><span>Completed</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- End Full content screen -->
+  </body>
+</html>

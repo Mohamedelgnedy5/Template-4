@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- File Of Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- File Of style -->
+    <link rel="stylesheet" href="css/profile.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap"
+      rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <nav>
+      <h3>Elzero</h3>
+      <div>
+        <ul>
+          <li>
+            <a href="index.html"
+              ><i class="fa-regular fa-chart-bar fa-fw"></i
+              ><span>Dashboard</span></a
+            >
+          </li>
+          <li>
+            <a href="setting.html"
+              ><i class="fa-solid fa-gear fa-fw"></i><span>Settings</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="profile.html"
+              style="background-color: #f6f6f6; border-radius: 4px"
+              ><i class="fa-regular fa-user fa-fw"></i><span>Profile</span></a
+            >
+          </li>
+          <li>
+            <a href="projects.html"
+              ><i class="fa-solid fa-diagram-project fa-fw"></i
+              ><span>Projects</span></a
+            >
+          </li>
+          <li>
+            <a href="courses.html"
+              ><i class="fa-solid fa-graduation-cap fa-fw"></i
+              ><span>Courses</span></a
+            >
+          </li>
+          <li>
+            <a href="friends.html"
+              ><i class="fa-regular fa-circle-user fa-fw"></i
+              ><span>Friends</span></a
+            >
+          </li>
+          <li>
+            <a href="files.html"
+              ><i class="fa-regular fa-file fa-fw"></i><span>Files</span></a
+            >
+          </li>
+          <li>
+            <a style="text-decoration: none" href="plans.html"
+              ><i class="fa-regular fa-credit-card fa-fw"></i
+              ><span>Plans</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Start Full content screen -->
+    <div class="full-content">
+      <div class="head">
+        <div class="serch">
+          <input
+            type="search"
+            name="serch"
+            id="serch"
+            placeholder="Type A Keyword" />
+        </div>
+        <div class="icons">
+          <i style="font-size: 1.25em" class="fa-regular fa-bell fa-lg"></i>
+          <img
+            src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/avatar.png"
+            alt="No-icon" />
+        </div>
+      </div>
+      <h1>Profile</h1>
+      <div class="content" style="padding: 20px">
+        <div class="flex-box">
+          <div class="avatar-box">
+            <img
+              src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/avatar.png"
+              alt="No-Avatar" />
+            <h3>Osama Elzero</h3>
+            <p>Level 20</p>
+            <span
+              style="
+                background: linear-gradient(
+                  to right,
+                  var(--blue-color) 70%,
+                  #eee 70%
+                );
+                display: block;
+              "></span>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p style="font-size: 13px">550 Rating</p>
+          </div>
+          <div class="info-box" style="width: 100%">
+            <div class="box">
+              <h4
+                style="
+                  width: 100%;
+                  margin: 0;
+                  font-size: 15px;
+                  color: var(--grey-color);
+                  font-weight: normal;
+                ">
+                General Information
+              </h4>
+              <div class="full-name">
+                <span>Full Name</span>
+                <span>&nbsp;Osama Mohamed</span>
+              </div>
+              <div class="gender">
+                <span>Gender:</span>
+                <span>&nbsp;Male</span>
+              </div>
+              <div class="country">
+                <span>Country:</span>
+                <span>&nbsp;Egypt</span>
+              </div>
+              <label>
+                <input type="checkbox" checked class="cheackInput" />
+                <div class="toggle"></div>
+              </label>
+            </div>
+            <div class="box">
+              <h4
+                style="
+                  width: 100%;
+                  margin: 0;
+                  font-size: 15px;
+                  color: var(--grey-color);
+                  font-weight: normal;
+                ">
+                Personal Information
+              </h4>
+              <div class="email">
+                <span>Email:</span>
+                <span>&nbsp;o@nn.sa</span>
+              </div>
+              <div class="phone">
+                <span>Phone:</span>
+                <span>&nbsp;019123456789</span>
+              </div>
+              <div class="full-name">
+                <span> Date Of Birth </span>
+                <span>&nbsp;25/10/1982</span>
+              </div>
+              <label>
+                <input type="checkbox" checked class="cheackInput" />
+                <div class="toggle"></div>
+              </label>
+            </div>
+            <div class="box">
+              <h4
+                style="
+                  width: 100%;
+                  margin: 0;
+                  font-size: 15px;
+                  color: var(--grey-color);
+                  font-weight: normal;
+                ">
+                Job Information
+              </h4>
+              <div class="Title">
+                <span>Title</span>
+                <span>&nbsp;Full Stack Developer</span>
+              </div>
+              <div class="prog-lan">
+                <span>Programming Language:</span>
+                <span>&nbsp;Python</span>
+              </div>
+              <div class="exp">
+                <span> Years Of Experience:</span>
+                <span>&nbsp;15+</span>
+              </div>
+              <label>
+                <input type="checkbox" checked class="cheackInput" />
+                <div class="toggle"></div>
+              </label>
+            </div>
+            <div class="box">
+              <h4
+                style="
+                  width: 100%;
+                  margin: 0;
+                  font-size: 15px;
+                  color: var(--grey-color);
+                  font-weight: normal;
+                ">
+                Billing Information
+              </h4>
+              <div class="pay-method">
+                <span>Payment Method</span>
+                <span>&nbsp;Paypal</span>
+              </div>
+              <div class="Email">
+                <span>Email:</span>
+                <span>&nbsp;email@website.com</span>
+              </div>
+              <div class="Subscription">
+                <span>Subscription:</span>
+                <span>&nbsp;Monthly</span>
+              </div>
+              <label>
+                <input type="checkbox" checked class="cheackInput" />
+                <div class="toggle"></div>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="flex-box2">
+          <div class="skills">
+            <h2>My Skills</h2>
+            <p>Complete Skills List</p>
+            <ul>
+              <li>
+                <span>HTML</span>
+                <span>Pugjs</span>
+                <span>HAML</span>
+              </li>
+              <li>
+                <span>CSS</span>
+                <span>SASS</span>
+                <span>Stylus</span>
+              </li>
+              <li>
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+              </li>
+              <li>
+                <span>Vuejs</span>
+                <span>Reactjs</span>
+              </li>
+              <li>
+                <span>Jest</span>
+                <span>Jasmine</span>
+              </li>
+              <li>
+                <span>PHP</span>
+                <span>Laravel</span>
+              </li>
+              <li style="border: none">
+                <span>Python</span>
+                <span>Django</span>
+              </li>
+            </ul>
+          </div>
+          <div class="activties" style="flex-grow: 2">
+            <h2>Latest Activities</h2>
+            <p>Latest Activities Done By The User</p>
+            <div class="box">
+              <img
+                src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/activity-01.png"
+                alt="No-img" />
+              <div class="info">
+                <span>Store</span>
+                <span>Bought The Mastering Python Course</span>
+              </div>
+              <div class="date">
+                <span>18:10</span>
+                <span>Yesterday</span>
+              </div>
+            </div>
+            <div class="box">
+              <img
+                src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/activity-02.png"
+                alt="No-img" />
+              <div class="info">
+                <span>Academy</span>
+                <span>Got The PHP Certificate </span>
+              </div>
+              <div class="date">
+                <span>16:05 </span>
+                <span>Yesterday</span>
+              </div>
+            </div>
+            <div class="box">
+              <img
+                src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/activity-03.png"
+                alt="No-img" />
+              <div class="info">
+                <span>Badges</span>
+                <span>Unlocked The 10 Skills Badge </span>
+              </div>
+              <div class="date">
+                <span>18:05</span>
+                <span>Yesterday</span>
+              </div>
+            </div>
+            <div class="box" style="border: none; padding: 0; margin: 0">
+              <img
+                src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/activity-01.png"
+                alt="No-img" />
+              <div class="info">
+                <span>Store</span>
+                <span>Bought The Mastering Python Course</span>
+              </div>
+              <div class="date">
+                <span>12:05</span>
+                <span>Yesterday</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

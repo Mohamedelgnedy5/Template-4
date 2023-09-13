@@ -1,0 +1,246 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  display: flex;
+  background-color: #f1f5f9;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--blue-color);
+}
+nav {
+  padding: 20px;
+  width: 250px;
+  min-height: 100vh;
+  box-shadow: 0 0 10px #ddd;
+  background-color: white;
+  z-index: 100;
+}
+nav h3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 40px;
+  font-weight: bold;
+  margin-top: 0;
+}
+nav h3::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  background-color: black;
+  bottom: -17px;
+}
+nav h3::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: black;
+  bottom: -26px;
+  background: black;
+  border: white 4px solid;
+  z-index: 100;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+nav ul li {
+  display: block;
+  margin: 0 0 20px;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+}
+nav ul li:hover a {
+  transition: 0.3s;
+  background-color: #f6f6f6;
+  border-radius: 4px;
+}
+nav a {
+  padding: 10px;
+  display: flex;
+  text-decoration: none;
+  position: absolute;
+  width: 100%;
+  margin-bottom: 5px;
+}
+nav ul li a span {
+  color: black;
+  font-size: 14px;
+  margin-left: 15px;
+}
+.fa-regular,
+.fa-solid {
+  color: black;
+  font-size: 14px;
+}
+.full-content {
+  overflow: hidden;
+  width: 100%;
+}
+.head {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+}
+.head img {
+  width: 32px;
+  margin-left: 15px;
+  height: 32px;
+}
+.serch {
+  position: relative;
+}
+.serch input {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 10px 35px;
+  width: 160px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+.serch input::placeholder {
+  font-size: 13px;
+}
+.serch input:focus {
+  width: 100%;
+  outline: none;
+}
+.serch::before {
+  font-family: var(--fa-style-family-classic);
+  content: "\f002";
+  font-weight: 900;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: var(--grey-color);
+  opacity: 0.5;
+}
+.head .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.head .icons::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  top: 4px;
+  left: 10px;
+}
+h1 {
+  padding: 20px;
+  margin: 20px 0 10px;
+  position: relative;
+}
+h1::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  bottom: 13px;
+  background: linear-gradient(to right, black 35%, white 35%, white 100%);
+}
+.grid-items {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.grid-items .box {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+}
+.grid-items .box img:first-child {
+  width: 100%;
+}
+.grid-items .box img:last-of-type {
+  width: 64px;
+  height: 64px;
+  border: 2px white solid;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.grid-items .box .info {
+  padding: 20px;
+}
+.grid-items .box .info h4 {
+  margin: 0;
+}
+.grid-items .box .info p {
+  margin: 15px 0 14px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--grey-color);
+}
+.grid-items .box .price {
+  position: relative;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #eee;
+  font-size: 13px;
+  color: var(--grey-color);
+}
+.price span i {
+  color: var(--grey-color);
+}
+@media (width < 768px) {
+
+  nav {
+    width: 58px;
+    padding: 10px;
+  }
+  nav h3 {
+    margin-bottom: -10px;
+    font-size: 13px;
+  }
+  nav ul li {
+    padding-left: 0;
+  }
+  nav h3::before,
+  nav h3::after {
+    display: none;
+  }
+  nav {
+    width: fit-content;
+  }
+  nav ul li span {
+    display: none;
+  }
+  nav ul li a {
+    width: fit-content;
+  }
+}
